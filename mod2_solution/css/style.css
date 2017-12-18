@@ -1,7 +1,44 @@
 * {
     box-sizing: border-box;
+    
 }
 body {
     margin: 0;
     padding: 0;
+}
+h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+main {
+    padding: 30px;
+    position:absolute;
+}
+section {
+    border: 1px solid black;
+    margin: 30px;
+    background-color: grey;
+    position: relative;
+}
+h2 {
+    position: absolute;
+    border: 1px solid black;
+    margin-top:0;
+    text-align:center;
+    width: 120px;
+    left: 225px;
+}
+article {
+    margin-top: 35px;
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        width: 33.33%;
+        float: left;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
 }
