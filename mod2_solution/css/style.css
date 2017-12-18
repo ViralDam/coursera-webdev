@@ -5,18 +5,21 @@
 body {
     margin: 0;
     padding: 0;
+    font-size: 100%;
+    font-family:"Comic Sans MS", cursive, sans-serif;
 }
 h1 {
     text-align: center;
     margin-top: 40px;
+    font-size: 31.5px;
 }
 main {
-    padding: 30px;
+    padding: 25px;
     position:absolute;
 }
 section {
     border: 1px solid black;
-    margin: 30px;
+    margin: 25px;
     background-color: grey;
     position: relative;
 }
@@ -24,12 +27,26 @@ h2 {
     position: absolute;
     border: 1px solid black;
     margin-top:0;
+    margin-right: 25px;
     text-align:center;
     width: 120px;
-    left: 225px;
+    right: -26px;
+    top: -1px;
+    font-size: 25px;
 }
 article {
     margin-top: 35px;
+    padding: 10px;
+    font-size: 18px;
+}
+#chicken {
+    background-color: rgb(213,152,152);
+}
+#beef {
+    background-color: rgb(193,69,67);
+}
+#sushi {
+    background-color: rgb(229,209,152);
 }
 
 @media (min-width: 992px) {
@@ -40,5 +57,12 @@ article {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    
+    .col-md-6 {
+        width: 50%;
+        float: left;
+    }
+    .col-md-12 {
+        width: 100%;
+        float: left;
+    }
 }
