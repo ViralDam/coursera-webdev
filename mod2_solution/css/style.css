@@ -36,7 +36,7 @@ h2 {
 }
 article {
     margin-top: 35px;
-    padding: 10px;
+    padding: 20px;
     font-size: 18px;
 }
 #chicken {
@@ -44,6 +44,7 @@ article {
 }
 #beef {
     background-color: rgb(193,69,67);
+    color: rgb(254,254,254);
 }
 #sushi {
     background-color: rgb(229,209,152);
