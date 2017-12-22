@@ -1,18 +1,47 @@
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     padding: 0;
     font-size: 20px;
     font-family:"Comic Sans MS", cursive, sans-serif;
 }
-h2{
+#header-nav {
+    background-color: lightgrey;
+    margin-bottom: 20px;
+}
+.navbar-brand a:hover{
+    text-decoration: none;
+}
+div article a {
+    color: white;
+}
+div article a:hover, div article a:active {
+    color: lightgrey;
+    text-decoration: none;
+}
+h1 {
     font-size: 1.75em;
+}
+h2{
+    font-size: 1.5em;
 }
 h3 {
     font-size: 1.25em;
 }
-.row div section {
-    margin: 10px;
+.row div article {
+    margin: 10px 0px;
     border: 1px solid black;
     padding: 10px;
     background-color: grey;
+}
+button {
+    float: right !important;
+    display: none;
+}
+@media (max-width: 767px) {
+    button {
+        display: inline !important;
+    }
 }
