@@ -60,3 +60,6 @@ header {
 .navbar-default .navbar-toggle .icon-bar {
     background-color: white;
 }
+div.navbar-brand>a:hover, div.navbar-brand>a:active {
+    color: black;
+}
